@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Âncoras em HTML5</title>
+    <link rel="shortcut icon" href="Crountch-One-Piece-Jolly-Roger-Luffys-flag-2.ico" type="image/x-icon">
+    <style>
+
+        body {
+            background-color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Ao usar somente o <A> e clicar no link, o site do link sobrepoem o meu site-->
+    <!--Então o ideal é forçar ele abrir outra janela com o seguinte codigo-->
+    <!-- rel="external" significa que é um link externo e vai pra fora do site-->
+    <!-- target="_blank" significa janela em branco-->
+
+    <h1>Usando links <strong>externos</strong></h1>
+    <p>Você pode acessar sites <a href="https://www.crunchyroll.com/pt-br" target="_blank" rel="external">animes oficiais clicando aqui</a></p>
+    <br>
+    <p>Você também pode acessar o canal onde eu aprendi a fazer isso <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27">simplesmente clicando aqui</a></p>
+    <br>
+    <!--rel next pq é a próxima pagina (não é obrigatorio mas pela semantica é bom)-->
+    <h1>Usando links <STRONG>internos</STRONG></h1>
+    <p>Esta é a primeira página do meu site. Caso queria acessar a segunda página do meu site <a href="pag002.html" rel="next">CLIQUE AQUI</a></p>
+    <br>
+    <p><strong>Você também pode acessar minha página de noticias <a href="noticias/pag003.html" rel="next">clicando aqui</a></strong></p>
+    <br>
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="boletim/boletim_enem.pdf" target="_blank" rel="external">Baixar boletim em <strong>PDF</strong></a></li>
+        <li><a href="boletim/boletim_enem_2.rar" download="boletim_enem_2" type="application/zip">Baixar boletim compactado em <strong>ZIP</strong></a></li>
+    </ul>
+
+
+</body>
+</html>

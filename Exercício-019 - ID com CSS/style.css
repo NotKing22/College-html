@@ -1,0 +1,49 @@
+@import "UTF-8";
+
+/*
+        em HTML é id e em CSS é #
+        em HTML é class e em CSS é .
+
+        -----------------------
+        Você não pode repetir o ID no index.html na mesm apagina, por mais que funcione. EX: quero reutilizar o style em outro h1
+        o ideal é usar class. ID é unico e CLASS pode ser multiplo
+        -----------------------
+
+        ali no h1#principal não precisa por o h1
+*/
+
+body {
+    background-color: rgb(94, 250, 89);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    color: rgb(9, 134, 5);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(9, 134, 5);
+    color: white;
+}
+
+h2 {
+    color: rgb(10, 190, 3);
+}
+
+.destaque {
+    background-color: rgba(255, 255, 0, 0.781);
+}
+
+.basico {
+    color: rgb(47, 161, 255);
+    font-weight: bold;
+}
+
+.intermediario {
+    color:rgb(248, 248, 47)
+}
+
+.avancado {
+    color:rgb(241, 41, 41)
+}

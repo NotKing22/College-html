@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #EB9352, #18919E);
+}
+
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px; /* deixa redondinho a borda*/
+    box-shadow: 5px 5px 15px #EB9352; /* 1- quanto anda pro lado 2- quanto anda pra baixo 3- quanto a sombra espalha 4- quanto de transparencia*/
+}
+
+h1 {
+    color: #9E5A28;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    color: #ff9950;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    text-align: justify;
+}

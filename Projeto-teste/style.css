@@ -1,0 +1,42 @@
+* {
+    box-sizing : border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'androidFont';
+    src: url('fontes/idroid.otf'), url('fontes/idroid.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-image: linear-gradient(to top, #0c0c0cd7, #05ac0e);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+
+#titulo {
+    font-size: 33px;
+}
+
+#subtitulo {
+    color: rgb(216, 216, 216)
+}
+
+#navegacao ul li{
+    display: inline-block;
+    float: left;
+    padding-right: 30px;
+}
+
+#navegacao ul li:hover {
+    background-color: #05ac0e;
+    background-size: 1px;
+}

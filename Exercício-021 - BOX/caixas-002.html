@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title> 
+
+    <style>
+        body {
+            background-color: gray;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(185, 183, 183);
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            margin: 0px;
+            padding: 4px;
+            text-align: center;
+        }
+        article {
+            background-color: rgb(252, 247, 0);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(168, 157, 6);
+        }
+        nav {
+            background-color: rgb(51, 51, 51);
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.493);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            color: red;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- header, main e etc são divs, só que assim fica com melhor semantica e favorece mecanismos de buscas-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+           <article>
+            <h2>Noticias sobre nada</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, reprehenderit? Earum alias doloribus voluptatibus ipsam. Facere minima quia aliquid distinctio, qui enim totam quis eius et obcaecati odio ratione porro.</p>
+           </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre nada</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, reprehenderit? Earum alias doloribus voluptatibus ipsam. Facere minima quia aliquid distinctio, qui enim totam quis eius et obcaecati odio ratione porro.</p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por zSnowReach</p>
+    </footer>
+</body>
+</html>

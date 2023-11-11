@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML-5</title>
+    <link rel="shortcut icon" href="Crountch-One-Piece-Jolly-Roger-Luffys-flag-2.ico" type="image/x-icon">
+    <style>
+        body{background-color: aquamarine;}
+    </style>
+</head>
+<body>
+    <h1>Reproduzindo aúdios</h1>
+    <p>Vamos aprender a reproduzir aúdios</p>
+    <!--<audio src="media/X2Download.com - Mr.Kitty - After Dark (128 kbps).mp3" controls autoplay> </audio>-->
+    <audio preload="metadata" autoplay controls loop>
+        <!--Em ordem de carregamento caso n funcione em um navegador-->
+        <source src="media/X2Download.com - Mr.Kitty - After Dark (128 kbps).mp3" type="audio/mpeg">
+        <source src="media/X2Download.com - Mr.Kitty - After Dark (128 kbps).ogg" type="audio/ogg">
+        <source src="media/X2Download.com - Mr.Kitty - After Dark (128 kbps).wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. 
+            <a href="media/X2Download.com - Mr.Kitty - After Dark (128 kbps).mp3">Clique aqui</a> para baixar o arquivo MP3</p>
+
+    </audio>
+
+    <br>
+    <h1>Imagem dinâmica</h1>
+    <p><strong>Tente abrir este site em vários dispositivos diferentes, ou simplesmente aumente ou diminua o tamanho do seu navegador</strong></p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/nea.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/levi.jpg" type="image/png">
+        <img src="imagens/ft.png" alt="Imagem flexivel">
+    </picture>
+</body>
+</html>
