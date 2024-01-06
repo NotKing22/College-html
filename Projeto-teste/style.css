@@ -4,7 +4,7 @@
 
 body {
     margin: 0px;
-    background-color: rgb(12, 255, 158);
+    background-color: rgba(255, 205, 237, 0.605);
 }
 
 @font-face {
@@ -14,10 +14,34 @@ body {
     font-style: normal;
 }
 
+#user-box {
+    background-color: rgb(42, 42, 42);
+    margin-left: -50px;
+    margin-top: -30px;
+    width: 1369px;
+    height: 60px;
+    box-shadow: 3px 5px 10px #000000;
+   
+}
 
+
+
+#user-box img {
+    width: 50px;
+    height: 50px;
+    margin-left: 1300px;
+    margin-bottom: -35px;
+    border-radius: 50%;
+}
+
+#user-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 
 header {
-    background-image: linear-gradient(to top, #1b1b1bd7, #6cd35a);
+    background-image: linear-gradient(to top, #1b1b1bd7, #d35a5a);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -34,11 +58,40 @@ header {
 #box {
     background-color: white;
     width: 850px;
-    height: 1000px;
+    height: 3000px;
     position: absolute;
     margin-left: 20%;
     box-shadow: 3px 3px 5px #888888;
     text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#box .destaque_verde {
+    color:#02ce0c
+}
+
+
+#box #t1 {
+    color:rgb(31, 53, 254);
+    font-weight: bold;
+    font-family: androidFont;
+    text-align: center;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+#box #t2, #t3 {
+    background-image: linear-gradient(to right, #34ff6a, #ffffff); 
+    color:rgb(31, 53, 254);
+    font-weight: bold;
+    font-family: androidFont;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 50px;
+    text-align: left;
 }
 
 #subtitulo {
@@ -50,12 +103,11 @@ header {
     float: left;
     margin-right: 30px;
     margin-top: 35px;
-    
-    
 }
 
 #navegacao ul li:hover {
-    background-color: #05ac0e;
+    background-color: #353935;
     background-size: 1px;
+    cursor: pointer;
     
 }

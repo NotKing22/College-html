@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body {
+    background-image: url(imagens/login.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(41, 41, 41); 
+    box-shadow: 5px 5px 5px black;
+    border-radius: 3%;
+}
+
+.box form {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.box .input-field-text {
+    margin-bottom: 15px;
+}
+
+.box .input-field-text input {
+    width: 200px;
+    padding: 9px; 
+    box-sizing: border-box;
+}
+
+.box .input-field-password input {
+    width: 200px;
+    padding: 9px; 
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.box .submit {
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    background-color: #3498db; 
+    color: #fff; 
+}
+
+.box .submit:hover {
+    background-color: #0e71b4; 
+}
+
+.remember {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.remember a {
+    color: #32a5f1;
+    text-decoration: none;
+}
+
+.remember a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1085d3; 
+}
+
+.cadastre {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.cadastre a {
+    color: #32a5f1;
+    text-decoration: none;
+}
+
+.cadastre:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #1085d3; 
+}
+
+img {
+    width: 7%;
+    margin-bottom: 290px;
+    margin-right: 0px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
