@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastrar.css">
+    <title>Cadastrar</title>
+</head>
+    <body>
+        
+        <div class="banner"></div>
+        <form action="">
+
+            
+
+                <div class="box">
+                    <p class="cadastrando_p">Cadastrando</p>
+                <input type="text" name="username" id="username" placeholder="Nome de usuário">
+                <input type="email" name="email" id="email" placeholder="e-mail">
+                <input type="password" name="password" id="password" placeholder="Insira sua senha">
+                <input type="password" name="password_confirm" id="password_confirm" placeholder="Confirmar senha">
+            
+                <p>Data de nascimento</p>
+            
+                <input type="number" name="dia" id="dia" placeholder="Dia" min="0" max="31">
+                <input type="number" name="mes" id="mes" placeholder="Mês" min="0" max="12">
+                <input type="number" name="ano" id="ano" placeholder="Ano" min="1950" max="3000">
+                
+                <p>Gênero</p>
+                <label>
+                    <input type="radio" name="male" value="male"> Homem
+                </label>
+            
+                <label>
+                    <input type="radio" name="female" value="female"> Mulher
+                </label>
+            
+                <label>
+                    <input type="radio" name="nobinare" value="nobinare"> Não específicado
+                </label>
+            </div>
+            <input class="submit" type="submit" value="Cadastrar">
+        </form>
+
+    </body>
+</html>

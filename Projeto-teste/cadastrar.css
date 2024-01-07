@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(imagens/cadastro.jpg);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 500px;
+    height: 450px;
+    padding-top: 200px;
+    padding-bottom: 220px;
+    border: 4px solid rgb(86, 86, 86);
+    background-color: rgb(237, 153, 153);
+    border-radius: 5%;
+    text-align: center;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.box .cadastrando_p {
+    font-size: 30px;
+    margin-top: -50px;
+    color: rgb(242, 255, 1);
+}
+
+.banner {
+    background-image: url(imagens/cadastro.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    border: 4px solid rgb(96, 96, 96);
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    margin-bottom: 300px;
+    z-index: 2;
+    background-color: aqua;
+}
+
+.submit {
+    cursor: pointer;
+    margin-top: -60px;
+    margin-left: 200px;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    border-radius: 10%;
+    background-color: rgb(56, 182, 250);
+    box-shadow: 5px 5px 5px black;
+    z-index: 1;
+}
+
+.submit:hover {
+    background-color: rgb(14, 167, 250);
+}

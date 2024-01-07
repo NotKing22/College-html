@@ -20,8 +20,8 @@ body {
     
 }
 .box {
-    width: 300px;
-    height: 400px;
+    width: 400px;
+    height: 430px;
     background-color: rgb(41, 41, 41); 
     box-shadow: 5px 5px 5px black;
     border-radius: 3%;
@@ -100,8 +100,8 @@ body {
 
 img {
     width: 7%;
-    margin-bottom: 290px;
-    margin-right: 0px;
+    margin: auto;
+    margin-bottom: 300px;
     position: absolute;
     z-index: 1;
     border-radius: 50%;
